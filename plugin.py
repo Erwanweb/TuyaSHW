@@ -238,7 +238,7 @@ class BasePlugin:
         #d = tinytuya.Device('bfcc28923f9cbde8281cd4', '192.168.0.118', f"'{LOCAL_KEY}'", version=3.4)
         #d = tinytuya.Device("'{}', '{}','{}', version={}").format(DEVICE_ID, LOCAL_KEY, IP_ADDRESS, VERSION))
         #d = tinytuya.Device("'{}', '{}', '{}', version='{}'").format(DEVICE_ID, LOCAL_KEY, IP_ADDRESS, VERSION))
-        d = tinytuya.Device('bfcc28923f9cbde8281cd4', '192.168.0.118', 'NO$!z-=/ek&9]>lQ', version=3.4)
+        d = tinytuya.Device('bfcc28923f9cbde8281cd4', '192.168.0.119', 'NO$!z-=/ek&9]>lQ', version=3.4)
         # lecture
         data = d.status()
         # lemaj des valeurs des widgets is ok
